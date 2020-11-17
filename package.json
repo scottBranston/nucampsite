@@ -4,9 +4,10 @@
   "description": "This is a website for the fictional campsites review site NuCamp.",
   "main": "index.html",
   "scripts": {
-    "lite": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npm run lite",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lite": "lite-server"
+
   },
   "author": "Scott Branston",
   "license": "ISC",
@@ -19,5 +20,13 @@
     "font-awesome": "^4.7.0",
     "jquery": "^3.5.1",
     "popper.js": "^1.16.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scottBranston/nucampsite.git"
+  },
+  "bugs": {
+    "url": "https://github.com/scottBranston/nucampsite/issues"
+  },
+  "homepage": "https://github.com/scottBranston/nucampsite#readme"
 }
